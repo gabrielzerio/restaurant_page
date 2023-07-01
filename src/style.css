@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0e1111;
+    font-family: 'Oooh Baby', cursive;
+    color: white;
+}
+#head{
+    display: flex;
+    align-items: center;
+    
+    padding: 0px 10px 0px 10px;
+    height: 60px;
+    background-color: #232b2b;
+}
+
+#head > #logo{
+    font-size: 2em;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+#content{
+width: 60%;
+background-color: #353839;
+}
